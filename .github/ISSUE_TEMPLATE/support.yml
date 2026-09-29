@@ -1,0 +1,12 @@
+name: Support Request
+description: Ask for help or clarification regarding the architecture.
+title: "[Support]: "
+labels: ["support"]
+body:
+  - type: textarea
+    attributes:
+      label: Question Description
+      description: Describe what you need help with.
+      placeholder: Explain your question or doubt here...
+    validations:
+      required: true
